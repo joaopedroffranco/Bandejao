@@ -1,0 +1,6 @@
+framework module GDELibraryiOS {
+  umbrella header "GDELibraryiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

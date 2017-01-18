@@ -1,0 +1,6 @@
+framework module Pods_Bandejao {
+  umbrella header "Pods-Bandejao-umbrella.h"
+
+  export *
+  module * { export * }
+}

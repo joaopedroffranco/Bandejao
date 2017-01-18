@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		054F0E671E2D22E70049605C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054F0E661E2D22E70049605C /* AppDelegate.swift */; };
-		054F0E691E2D22E70049605C /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054F0E681E2D22E70049605C /* DaysViewController.swift */; };
+		054F0E691E2D22E70049605C /* DiningPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054F0E681E2D22E70049605C /* DiningPageViewController.swift */; };
 		054F0E6C1E2D22E70049605C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054F0E6A1E2D22E70049605C /* Main.storyboard */; };
 		054F0E6F1E2D22E70049605C /* Bandejao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 054F0E6D1E2D22E70049605C /* Bandejao.xcdatamodeld */; };
 		054F0E711E2D22E70049605C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054F0E701E2D22E70049605C /* Assets.xcassets */; };
 		054F0E741E2D22E70049605C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054F0E721E2D22E70049605C /* LaunchScreen.storyboard */; };
 		054F0E7F1E2D22E70049605C /* BandejaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054F0E7E1E2D22E70049605C /* BandejaoTests.swift */; };
 		054F0E8A1E2D22E70049605C /* BandejaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054F0E891E2D22E70049605C /* BandejaoUITests.swift */; };
-		058EC54C1E2D2FA700BF0177 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC54B1E2D2FA700BF0177 /* MealTableViewController.swift */; };
-		058EC54E1E2D360400BF0177 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC54D1E2D360400BF0177 /* Meal.swift */; };
-		058EC5501E2D374500BF0177 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC54F1E2D374500BF0177 /* Day.swift */; };
+		058EC54C1E2D2FA700BF0177 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC54B1E2D2FA700BF0177 /* MenuViewController.swift */; };
 		058EC5521E2D42AA00BF0177 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC5511E2D42AA00BF0177 /* Helper.swift */; };
+		0591F68D1E2FBE1100067245 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 0591F68C1E2FBD8B00067245 /* public_key.der */; };
+		FEE1EC2E8460FE8730FD5C28 /* Pods_Bandejao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1471C233F92B2B3BD2E3A708 /* Pods_Bandejao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		054F0E631E2D22E70049605C /* Bandejao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandejao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		054F0E661E2D22E70049605C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		054F0E681E2D22E70049605C /* DaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
+		054F0E681E2D22E70049605C /* DiningPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningPageViewController.swift; sourceTree = "<group>"; };
 		054F0E6B1E2D22E70049605C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		054F0E6E1E2D22E70049605C /* Bandejao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bandejao.xcdatamodel; sourceTree = "<group>"; };
 		054F0E701E2D22E70049605C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,10 +53,12 @@
 		054F0E851E2D22E70049605C /* BandejaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandejaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		054F0E891E2D22E70049605C /* BandejaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandejaoUITests.swift; sourceTree = "<group>"; };
 		054F0E8B1E2D22E70049605C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		058EC54B1E2D2FA700BF0177 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
-		058EC54D1E2D360400BF0177 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
-		058EC54F1E2D374500BF0177 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		058EC54B1E2D2FA700BF0177 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		058EC5511E2D42AA00BF0177 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0591F68C1E2FBD8B00067245 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		1471C233F92B2B3BD2E3A708 /* Pods_Bandejao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bandejao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E42FF0C387B583EB0786607 /* Pods-Bandejao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandejao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bandejao/Pods-Bandejao.release.xcconfig"; sourceTree = "<group>"; };
+		85D57DF3884ED2D979407229 /* Pods-Bandejao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandejao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bandejao/Pods-Bandejao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE1EC2E8460FE8730FD5C28 /* Pods_Bandejao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +90,13 @@
 		054F0E5A1E2D22E60049605C = {
 			isa = PBXGroup;
 			children = (
+				0591F68C1E2FBD8B00067245 /* public_key.der */,
 				054F0E651E2D22E70049605C /* Bandejao */,
 				054F0E7D1E2D22E70049605C /* BandejaoTests */,
 				054F0E881E2D22E70049605C /* BandejaoUITests */,
 				054F0E641E2D22E70049605C /* Products */,
+				6333D51B1B36FBF6209DE75F /* Pods */,
+				326AA38BEAE629EF16A98D33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,8 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				054F0E661E2D22E70049605C /* AppDelegate.swift */,
-				058EC54D1E2D360400BF0177 /* Meal.swift */,
-				058EC54F1E2D374500BF0177 /* Day.swift */,
 				058EC5511E2D42AA00BF0177 /* Helper.swift */,
 			);
 			name = Model;
@@ -156,8 +160,8 @@
 		054F0E9A1E2D23080049605C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				054F0E681E2D22E70049605C /* DaysViewController.swift */,
-				058EC54B1E2D2FA700BF0177 /* MealTableViewController.swift */,
+				054F0E681E2D22E70049605C /* DiningPageViewController.swift */,
+				058EC54B1E2D2FA700BF0177 /* MenuViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -172,6 +176,23 @@
 			name = Assets;
 			sourceTree = "<group>";
 		};
+		326AA38BEAE629EF16A98D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1471C233F92B2B3BD2E3A708 /* Pods_Bandejao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6333D51B1B36FBF6209DE75F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85D57DF3884ED2D979407229 /* Pods-Bandejao.debug.xcconfig */,
+				3E42FF0C387B583EB0786607 /* Pods-Bandejao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 054F0E8E1E2D22E70049605C /* Build configuration list for PBXNativeTarget "Bandejao" */;
 			buildPhases = (
+				BB2A393AE115317BBF27E748 /* [CP] Check Pods Manifest.lock */,
 				054F0E5F1E2D22E70049605C /* Sources */,
 				054F0E601E2D22E70049605C /* Frameworks */,
 				054F0E611E2D22E70049605C /* Resources */,
+				7957FFC704363828C16964E9 /* [CP] Embed Pods Frameworks */,
+				EAA00D22A496CEB2208936DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0591F68D1E2FBE1100067245 /* public_key.der in Resources */,
 				054F0E741E2D22E70049605C /* LaunchScreen.storyboard in Resources */,
 				054F0E711E2D22E70049605C /* Assets.xcassets in Resources */,
 				054F0E6C1E2D22E70049605C /* Main.storyboard in Resources */,
@@ -304,17 +329,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7957FFC704363828C16964E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bandejao/Pods-Bandejao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2A393AE115317BBF27E748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA00D22A496CEB2208936DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bandejao/Pods-Bandejao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		054F0E5F1E2D22E70049605C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058EC54E1E2D360400BF0177 /* Meal.swift in Sources */,
 				058EC5521E2D42AA00BF0177 /* Helper.swift in Sources */,
-				054F0E691E2D22E70049605C /* DaysViewController.swift in Sources */,
-				058EC5501E2D374500BF0177 /* Day.swift in Sources */,
+				054F0E691E2D22E70049605C /* DiningPageViewController.swift in Sources */,
 				054F0E671E2D22E70049605C /* AppDelegate.swift in Sources */,
-				058EC54C1E2D2FA700BF0177 /* MealTableViewController.swift in Sources */,
+				058EC54C1E2D2FA700BF0177 /* MenuViewController.swift in Sources */,
 				054F0E6F1E2D22E70049605C /* Bandejao.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +534,7 @@
 		};
 		054F0E8F1E2D22E70049605C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D57DF3884ED2D979407229 /* Pods-Bandejao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48C2S6NZC8;
@@ -476,6 +548,7 @@
 		};
 		054F0E901E2D22E70049605C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E42FF0C387B583EB0786607 /* Pods-Bandejao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48C2S6NZC8;

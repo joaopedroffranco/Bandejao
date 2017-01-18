@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0134D4A8C4C8A3B493C4AE72487F871B /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3821270D89D2158C9E8A0FFDF9A4AC4 /* URLSessionHTTPClient.swift */; };
+		09146F5973E5D187E09551B81CC5CE9F /* GDE Library.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C496F7978DE3D40324E5EF1A99BA05 /* GDE Library.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EF8558FBF62B6D0431E1F621EA4AA92 /* AES256forGDE.m in Sources */ = {isa = PBXBuildFile; fileRef = AF77942B67B9DFBB09245D8C0E670123 /* AES256forGDE.m */; };
+		335C8DF3B7A78CC9F64FFE2B09A5AE9F /* Pods-Bandejao-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3401BC3895C71643A390F189E9D4C602 /* Pods-Bandejao-dummy.m */; };
+		3B91FC308DEEFB33FFC91897FC024223 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F12B08EF8D3BAD1BCA2C83B8BE0108D /* RSA.m */; };
+		3CE201220364DC6598C1B0C7D856C972 /* GDELibraryiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3965E86AF882632CB9E0DC0C54CD8CB0 /* GDELibraryiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E43F0C3942D5122A1F31548C9FF0C0 /* GDELibraryiOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = AACEE143C2AB273EB0BE4296059067B1 /* GDELibraryiOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB148925B345030EDF0399DDA48B457 /* GDEApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ECF1D851B53E84C6B64C43847B5D7E /* GDEApiRequest.swift */; };
+		5EF19451F8B8EC788E1F4A68279E60B6 /* GDEApiDiningResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D09C9679277694C5E17A661CE77A267 /* GDEApiDiningResponse.swift */; };
+		603AAEAE09C6BF4AD84A826A37F22B69 /* Pods-Bandejao-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C08AF383F16D66071E7FCC8B60353F /* Pods-Bandejao-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60EBA66E7482D36E61ED5A0297C684BD /* GDEApiDiningRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B19945175F3E972128B0205BBE607E5 /* GDEApiDiningRequest.swift */; };
+		6E5373863B49A3317440C327B6A95110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		73E7DE55EC6043470107BD2500021942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		75297FA0E278929D9CDFBA2C89D3A869 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE5E5CDFC186AA4BF970F2A397E54EA /* NSData+Base64.m */; };
+		7595C0EB976D022CC43533B70CF861F5 /* GDELibraryiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B88643734FF1BC9DFC6B98ABED95D5B /* GDELibraryiOS-dummy.m */; };
+		7AD851077D54F65F132BB1C94358FDCE /* RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EBB54F736037283E3443AC83DEC62D /* RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF2CB6CCB914E55541575158B309671 /* GDEApiDiningMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F72543C2F8C0303A498CA830C1ED3 /* GDEApiDiningMenu.swift */; };
+		AC1E767139F47500964302E6528115CB /* GDEApiAuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDCC5347D8A7305F9A0FD9B60E9995 /* GDEApiAuthenticationResponse.swift */; };
+		B24564CBCE2DA35E3F26A6357B5BB1B4 /* AES256Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C706B4AFEE3D5E4C397A79FCC5A5DFF3 /* AES256Utils.swift */; };
+		CFD1559DDA6F7A8550BE2C78AA862336 /* GDEApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE368484EC77204ECC771BA09A0454 /* GDEApiConstants.swift */; };
+		D55F3308DF15CF352E00E664B4BB1223 /* GDEApiHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E62F9E164E7A05494EDF1582ADC0D40 /* GDEApiHTTPClient.swift */; };
+		D7F3FFF46E7ADC798D7DBE5ED4C21CFE /* GDEApiAuthenticationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C572E051C901262B1F1B303DFFBCF /* GDEApiAuthenticationRequest.swift */; };
+		EA46E2969ACA184FF92308EC23597FC5 /* AES256forGDE.h in Headers */ = {isa = PBXBuildFile; fileRef = 02898502ADA86FCB81F2D8E6175C8658 /* AES256forGDE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD8C271A9C90612C9795B76714FC04CC /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = AF98ABF9FF0CA919F28C7854E7562605 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851FCC4CEF1C6C1C30BBD4032A4818E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB139B1F1E2D046A07F730DEBF55882;
+			remoteInfo = GDELibraryiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02898502ADA86FCB81F2D8E6175C8658 /* AES256forGDE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AES256forGDE.h; path = "GDE Library/AES256forGDE.h"; sourceTree = "<group>"; };
+		0B19945175F3E972128B0205BBE607E5 /* GDEApiDiningRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDEApiDiningRequest.swift; path = "GDE Library/GDEApiDiningRequest.swift"; sourceTree = "<group>"; };
+		0B5C572E051C901262B1F1B303DFFBCF /* GDEApiAuthenticationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDEApiAuthenticationRequest.swift; path = "GDE Library/GDEApiAuthenticationRequest.swift"; sourceTree = "<group>"; };
+		0E62F9E164E7A05494EDF1582ADC0D40 /* GDEApiHTTPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDEApiHTTPClient.swift; path = "GDE Library/GDEApiHTTPClient.swift"; sourceTree = "<group>"; };
+		11245B3EF8529C05D71CCDE664C373A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124B31FFB5112FF077DC34F041F919AF /* Pods-Bandejao-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bandejao-frameworks.sh"; sourceTree = "<group>"; };
+		292723407FCF423A0DF4DB4E625A8D40 /* Pods-Bandejao-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bandejao-resources.sh"; sourceTree = "<group>"; };
+		3401BC3895C71643A390F189E9D4C602 /* Pods-Bandejao-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bandejao-dummy.m"; sourceTree = "<group>"; };
+		3965E86AF882632CB9E0DC0C54CD8CB0 /* GDELibraryiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDELibraryiOS-umbrella.h"; sourceTree = "<group>"; };
+		47F6DD12F4F37489BD6FC507BE986A4F /* Pods-Bandejao-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bandejao-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AFEA38C3A8BC178275A785EE13E95B3 /* GDELibraryiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GDELibraryiOS.framework; path = GDELibraryiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEDCC5347D8A7305F9A0FD9B60E9995 /* GDEApiAuthenticationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDEApiAuthenticationResponse.swift; path = "GDE Library/GDEApiAuthenticationResponse.swift"; sourceTree = "<group>"; };
+		5D09C9679277694C5E17A661CE77A267 /* GDEApiDiningResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDEApiDiningResponse.swift; path = "GDE Library/GDEApiDiningResponse.swift"; sourceTree = "<group>"; };
+		63ECF1D851B53E84C6B64C43847B5D7E /* GDEApiRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDEApiRequest.swift; path = "GDE Library/GDEApiRequest.swift"; sourceTree = "<group>"; };
+		6A5BAABC4D5FB0286668FC1C96908582 /* GDELibraryiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDELibraryiOS.xcconfig; sourceTree = "<group>"; };
+		6B88643734FF1BC9DFC6B98ABED95D5B /* GDELibraryiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDELibraryiOS-dummy.m"; sourceTree = "<group>"; };
+		6F12B08EF8D3BAD1BCA2C83B8BE0108D /* RSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSA.m; path = "GDE Library/RSA.m"; sourceTree = "<group>"; };
+		83C08AF383F16D66071E7FCC8B60353F /* Pods-Bandejao-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bandejao-umbrella.h"; sourceTree = "<group>"; };
+		86C335DF8A66641FC7E1CC5863FB576D /* Pods_Bandejao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bandejao.framework; path = "Pods-Bandejao.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D667AF8435EFB1F7537DBAD03ECEC8 /* Pods-Bandejao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bandejao.release.xcconfig"; sourceTree = "<group>"; };
+		AACEE143C2AB273EB0BE4296059067B1 /* GDELibraryiOS-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDELibraryiOS-Bridging-Header.h"; path = "GDE Library/GDELibraryiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF77942B67B9DFBB09245D8C0E670123 /* AES256forGDE.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AES256forGDE.m; path = "GDE Library/AES256forGDE.m"; sourceTree = "<group>"; };
+		AF98ABF9FF0CA919F28C7854E7562605 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "GDE Library/NSData+Base64.h"; sourceTree = "<group>"; };
+		AFE235E8DEE5A84D5AB2CA1A439B97A1 /* Pods-Bandejao.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Bandejao.modulemap"; sourceTree = "<group>"; };
+		B9C496F7978DE3D40324E5EF1A99BA05 /* GDE Library.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDE Library.h"; path = "GDE Library/GDE Library.h"; sourceTree = "<group>"; };
+		BB29A9418B70DFA026972E5A292A76DB /* Pods-Bandejao-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bandejao-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBEE368484EC77204ECC771BA09A0454 /* GDEApiConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDEApiConstants.swift; path = "GDE Library/GDEApiConstants.swift"; sourceTree = "<group>"; };
+		BDE5E5CDFC186AA4BF970F2A397E54EA /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "GDE Library/NSData+Base64.m"; sourceTree = "<group>"; };
+		C1930FF44D87CBFBFC3FE010A577C530 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3821270D89D2158C9E8A0FFDF9A4AC4 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionHTTPClient.swift; path = "GDE Library/URLSessionHTTPClient.swift"; sourceTree = "<group>"; };
+		C706B4AFEE3D5E4C397A79FCC5A5DFF3 /* AES256Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256Utils.swift; path = "GDE Library/AES256Utils.swift"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D58689E15F7C14FDF5DE56743FCB18F4 /* GDELibraryiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDELibraryiOS-prefix.pch"; sourceTree = "<group>"; };
+		E3EBB54F736037283E3443AC83DEC62D /* RSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSA.h; path = "GDE Library/RSA.h"; sourceTree = "<group>"; };
+		E73F72543C2F8C0303A498CA830C1ED3 /* GDEApiDiningMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDEApiDiningMenu.swift; path = "GDE Library/GDEApiDiningMenu.swift"; sourceTree = "<group>"; };
+		EC3B89AAB2DAA2C7BDCC328A83CAFBC5 /* GDELibraryiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GDELibraryiOS.modulemap; sourceTree = "<group>"; };
+		F3EAB8E24277EC36BC18D1321C57B081 /* Pods-Bandejao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bandejao.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657196A2C5BDF73CCD35F2C5B9B0613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5373863B49A3317440C327B6A95110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C265BEF8AD46EA3D0E885A2088B9204C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E7DE55EC6043470107BD2500021942 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061DCCA93A84AC41D876B4FCE820E0B4 /* Pods-Bandejao */ = {
+			isa = PBXGroup;
+			children = (
+				C1930FF44D87CBFBFC3FE010A577C530 /* Info.plist */,
+				AFE235E8DEE5A84D5AB2CA1A439B97A1 /* Pods-Bandejao.modulemap */,
+				BB29A9418B70DFA026972E5A292A76DB /* Pods-Bandejao-acknowledgements.markdown */,
+				47F6DD12F4F37489BD6FC507BE986A4F /* Pods-Bandejao-acknowledgements.plist */,
+				3401BC3895C71643A390F189E9D4C602 /* Pods-Bandejao-dummy.m */,
+				124B31FFB5112FF077DC34F041F919AF /* Pods-Bandejao-frameworks.sh */,
+				292723407FCF423A0DF4DB4E625A8D40 /* Pods-Bandejao-resources.sh */,
+				83C08AF383F16D66071E7FCC8B60353F /* Pods-Bandejao-umbrella.h */,
+				F3EAB8E24277EC36BC18D1321C57B081 /* Pods-Bandejao.debug.xcconfig */,
+				98D667AF8435EFB1F7537DBAD03ECEC8 /* Pods-Bandejao.release.xcconfig */,
+			);
+			name = "Pods-Bandejao";
+			path = "Target Support Files/Pods-Bandejao";
+			sourceTree = "<group>";
+		};
+		0A7C6389C8123234ADBF97DF1366C03D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C2285536167A1C4102DBA4D675DD119 /* GDELibraryiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C2285536167A1C4102DBA4D675DD119 /* GDELibraryiOS */ = {
+			isa = PBXGroup;
+			children = (
+				02898502ADA86FCB81F2D8E6175C8658 /* AES256forGDE.h */,
+				AF77942B67B9DFBB09245D8C0E670123 /* AES256forGDE.m */,
+				C706B4AFEE3D5E4C397A79FCC5A5DFF3 /* AES256Utils.swift */,
+				B9C496F7978DE3D40324E5EF1A99BA05 /* GDE Library.h */,
+				0B5C572E051C901262B1F1B303DFFBCF /* GDEApiAuthenticationRequest.swift */,
+				5BEDCC5347D8A7305F9A0FD9B60E9995 /* GDEApiAuthenticationResponse.swift */,
+				BBEE368484EC77204ECC771BA09A0454 /* GDEApiConstants.swift */,
+				E73F72543C2F8C0303A498CA830C1ED3 /* GDEApiDiningMenu.swift */,
+				0B19945175F3E972128B0205BBE607E5 /* GDEApiDiningRequest.swift */,
+				5D09C9679277694C5E17A661CE77A267 /* GDEApiDiningResponse.swift */,
+				0E62F9E164E7A05494EDF1582ADC0D40 /* GDEApiHTTPClient.swift */,
+				63ECF1D851B53E84C6B64C43847B5D7E /* GDEApiRequest.swift */,
+				AACEE143C2AB273EB0BE4296059067B1 /* GDELibraryiOS-Bridging-Header.h */,
+				AF98ABF9FF0CA919F28C7854E7562605 /* NSData+Base64.h */,
+				BDE5E5CDFC186AA4BF970F2A397E54EA /* NSData+Base64.m */,
+				E3EBB54F736037283E3443AC83DEC62D /* RSA.h */,
+				6F12B08EF8D3BAD1BCA2C83B8BE0108D /* RSA.m */,
+				C3821270D89D2158C9E8A0FFDF9A4AC4 /* URLSessionHTTPClient.swift */,
+				324F1333C09549F3CC3F3773F223A559 /* Support Files */,
+			);
+			name = GDELibraryiOS;
+			path = GDELibraryiOS;
+			sourceTree = "<group>";
+		};
+		324F1333C09549F3CC3F3773F223A559 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B89AAB2DAA2C7BDCC328A83CAFBC5 /* GDELibraryiOS.modulemap */,
+				6A5BAABC4D5FB0286668FC1C96908582 /* GDELibraryiOS.xcconfig */,
+				6B88643734FF1BC9DFC6B98ABED95D5B /* GDELibraryiOS-dummy.m */,
+				D58689E15F7C14FDF5DE56743FCB18F4 /* GDELibraryiOS-prefix.pch */,
+				3965E86AF882632CB9E0DC0C54CD8CB0 /* GDELibraryiOS-umbrella.h */,
+				11245B3EF8529C05D71CCDE664C373A9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GDELibraryiOS";
+			sourceTree = "<group>";
+		};
+		5EE3BD1A8693D624D6A9A3EF744B3AA9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				061DCCA93A84AC41D876B4FCE820E0B4 /* Pods-Bandejao */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A7C6389C8123234ADBF97DF1366C03D /* Pods */,
+				920727768CC03E4689E98BD81A56B167 /* Products */,
+				5EE3BD1A8693D624D6A9A3EF744B3AA9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		920727768CC03E4689E98BD81A56B167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AFEA38C3A8BC178275A785EE13E95B3 /* GDELibraryiOS.framework */,
+				86C335DF8A66641FC7E1CC5863FB576D /* Pods_Bandejao.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFB39E2FA5E8592230768779AEA0A208 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA46E2969ACA184FF92308EC23597FC5 /* AES256forGDE.h in Headers */,
+				09146F5973E5D187E09551B81CC5CE9F /* GDE Library.h in Headers */,
+				53E43F0C3942D5122A1F31548C9FF0C0 /* GDELibraryiOS-Bridging-Header.h in Headers */,
+				3CE201220364DC6598C1B0C7D856C972 /* GDELibraryiOS-umbrella.h in Headers */,
+				FD8C271A9C90612C9795B76714FC04CC /* NSData+Base64.h in Headers */,
+				7AD851077D54F65F132BB1C94358FDCE /* RSA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78ED0A2943DF74B25F19D08B38AAE00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603AAEAE09C6BF4AD84A826A37F22B69 /* Pods-Bandejao-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A72DB4D9D9FFDEEFA296E2787EBBA946 /* Pods-Bandejao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B10B8075B9A0A3CF1462A96776DC5BB /* Build configuration list for PBXNativeTarget "Pods-Bandejao" */;
+			buildPhases = (
+				DFB5EF347D7FB33C3B9E70C1BE8AA2CA /* Sources */,
+				657196A2C5BDF73CCD35F2C5B9B0613C /* Frameworks */,
+				E78ED0A2943DF74B25F19D08B38AAE00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5E045456E47D5B143E79E16C24D91D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Bandejao";
+			productName = "Pods-Bandejao";
+			productReference = 86C335DF8A66641FC7E1CC5863FB576D /* Pods_Bandejao.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDB139B1F1E2D046A07F730DEBF55882 /* GDELibraryiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB622AA78F665B092755A227C9F8215 /* Build configuration list for PBXNativeTarget "GDELibraryiOS" */;
+			buildPhases = (
+				12E8B6DF25A70353A8023152BAE66E79 /* Sources */,
+				C265BEF8AD46EA3D0E885A2088B9204C /* Frameworks */,
+				AFB39E2FA5E8592230768779AEA0A208 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDELibraryiOS;
+			productName = GDELibraryiOS;
+			productReference = 4AFEA38C3A8BC178275A785EE13E95B3 /* GDELibraryiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 920727768CC03E4689E98BD81A56B167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB139B1F1E2D046A07F730DEBF55882 /* GDELibraryiOS */,
+				A72DB4D9D9FFDEEFA296E2787EBBA946 /* Pods-Bandejao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E8B6DF25A70353A8023152BAE66E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF8558FBF62B6D0431E1F621EA4AA92 /* AES256forGDE.m in Sources */,
+				B24564CBCE2DA35E3F26A6357B5BB1B4 /* AES256Utils.swift in Sources */,
+				D7F3FFF46E7ADC798D7DBE5ED4C21CFE /* GDEApiAuthenticationRequest.swift in Sources */,
+				AC1E767139F47500964302E6528115CB /* GDEApiAuthenticationResponse.swift in Sources */,
+				CFD1559DDA6F7A8550BE2C78AA862336 /* GDEApiConstants.swift in Sources */,
+				7CF2CB6CCB914E55541575158B309671 /* GDEApiDiningMenu.swift in Sources */,
+				60EBA66E7482D36E61ED5A0297C684BD /* GDEApiDiningRequest.swift in Sources */,
+				5EF19451F8B8EC788E1F4A68279E60B6 /* GDEApiDiningResponse.swift in Sources */,
+				D55F3308DF15CF352E00E664B4BB1223 /* GDEApiHTTPClient.swift in Sources */,
+				5CB148925B345030EDF0399DDA48B457 /* GDEApiRequest.swift in Sources */,
+				7595C0EB976D022CC43533B70CF861F5 /* GDELibraryiOS-dummy.m in Sources */,
+				75297FA0E278929D9CDFBA2C89D3A869 /* NSData+Base64.m in Sources */,
+				3B91FC308DEEFB33FFC91897FC024223 /* RSA.m in Sources */,
+				0134D4A8C4C8A3B493C4AE72487F871B /* URLSessionHTTPClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB5EF347D7FB33C3B9E70C1BE8AA2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335C8DF3B7A78CC9F64FFE2B09A5AE9F /* Pods-Bandejao-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5E045456E47D5B143E79E16C24D91D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GDELibraryiOS;
+			target = BDB139B1F1E2D046A07F730DEBF55882 /* GDELibraryiOS */;
+			targetProxy = 851FCC4CEF1C6C1C30BBD4032A4818E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		21EB43397E5ED3F9B9C9246D1579639D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3EAB8E24277EC36BC18D1321C57B081 /* Pods-Bandejao.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bandejao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bandejao/Pods-Bandejao.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bandejao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A83393436AC5069324BBF2A9476C610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BAABC4D5FB0286668FC1C96908582 /* GDELibraryiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GDELibraryiOS/GDELibraryiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDELibraryiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GDELibraryiOS/GDELibraryiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GDELibraryiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BA40D664B1CDCA04F64E409D7CDADE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BAABC4D5FB0286668FC1C96908582 /* GDELibraryiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GDELibraryiOS/GDELibraryiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDELibraryiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GDELibraryiOS/GDELibraryiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GDELibraryiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8859BDD119106F2C07C842B1F46B467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D667AF8435EFB1F7537DBAD03ECEC8 /* Pods-Bandejao.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bandejao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bandejao/Pods-Bandejao.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bandejao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB622AA78F665B092755A227C9F8215 /* Build configuration list for PBXNativeTarget "GDELibraryiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A83393436AC5069324BBF2A9476C610 /* Debug */,
+				4BA40D664B1CDCA04F64E409D7CDADE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B10B8075B9A0A3CF1462A96776DC5BB /* Build configuration list for PBXNativeTarget "Pods-Bandejao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EB43397E5ED3F9B9C9246D1579639D /* Debug */,
+				A8859BDD119106F2C07C842B1F46B467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

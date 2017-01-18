@@ -9,14 +9,32 @@
 import Foundation
 
 struct Identifiers {
-    static let mealController = "mealController"
+    static let menuController = "menuController"
+}
+
+struct Constants {
+    static let loginRA = "bandecosiri"
+    static let loginPassword = "6HCtUdufmDKt4CKe"
+}
+
+extension String {
+    
+    var date: Date {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        return dateFormatter.date(from: self)!
+    }
+    
+    var text: String {
+        return (self != "") ? self : "Não disponível"
+    }
 }
 
 extension Date {
     
     var string: String {
         let dateformatter = DateFormatter()
-        dateformatter.dateStyle = .long
+        dateformatter.dateFormat = "dd MMMM, yyyy (EEEE)"
         return dateformatter.string(from: self)
     }
     
